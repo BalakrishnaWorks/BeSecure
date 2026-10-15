@@ -1,0 +1,78 @@
+
+# ==============================
+# BeSecure - Public Release
+# ==============================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local logs and scan reports
+*.log
+reports/
+scan-results/
+scan_results/
+test-results/
+test_results/
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files and editor settings
+*.tmp
+*.bak
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+*.spec
+
+# Test and coverage output
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Backup and archive files
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Local user settings
+*.local
